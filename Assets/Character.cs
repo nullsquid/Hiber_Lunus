@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
-
+using System.Collections.Generic;
 public class Character : MonoBehaviour {
 
 	// Use this for initialization
@@ -10,6 +10,7 @@ public class Character : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
+	
 	
 	}
 }
