@@ -2,14 +2,17 @@
 using System.Collections;
 
 public class Variant : MonoBehaviour {
+	protected string variantName;
 
-	// Use this for initialization
-	void Start () {
-	
+	public string VariantName{
+		get{
+			return variantName;
+		}
 	}
-	
-	// Update is called once per frame
-	void Update () {
-	
+	public string abilityName;
+
+	public virtual void InvokeAbility(){
+
 	}
+
 }
